@@ -7,4 +7,4 @@ Kumpulan Praktikum Pemrograman Mobile
 - Pertemuan ke - 3 Dijelaskan dan diterangkan mengenai android studio 
 - Pertemuan ke - 4 https://github.com/rohmapuspa/Pemrograman_Mobile.git
 - Pertemuan ke - 5 Tentang Saya
-- Pertemuan ke 6 Jetpack Navigation
+- Pertemuan ke - 6 Jetpack Navigation
