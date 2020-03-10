@@ -4,7 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InputFragment" >
+    android:background="#3BFFD1"
+    tools:context=".InputFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="413dp"
+        android:layout_height="235dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/bgrohma"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView"
@@ -19,7 +32,7 @@
         app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.333" />
+        app:layout_constraintVertical_bias="0.366" />
 
     <EditText
         android:id="@+id/editTextnama"
@@ -37,11 +50,13 @@
 
     <Button
         android:id="@+id/buttonsubmit"
-        android:layout_width="330dp"
+        android:layout_width="348dp"
         android:layout_height="45dp"
         android:layout_marginTop="32dp"
+        android:background="@color/colorPrimary"
         android:text="Submit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextnama" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

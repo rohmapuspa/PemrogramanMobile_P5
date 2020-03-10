@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HasilFragment" >
+    android:background="#4CFDC7"
+    tools:context=".HasilFragment">
 
     <TextView
         android:id="@+id/textViewhasil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hasil"
-        android:textSize="36sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="38sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
