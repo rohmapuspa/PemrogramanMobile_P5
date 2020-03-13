@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project Portofolioku</string>
+    <string name="deskripsi">Hallo Saya Rohma, saya adalah anak ke 2 dari 2 bersaudara. Nama kakak saya adalah Ahmad, Saya
+    sekarang sedang menempuh pendidikan di STMIK AKAKOM YOGYAKARTA Jurusan Sistem Informasi. Saya adalah anak dari
+    seorang pegawai swasta dan ibu rumah tangga. Saya tinggal di kembang tepatnya di kabupaten Sleman . Cita-cita saya itu ingin menjadi
+    seorang pendidik (awalnya sih ingin menjadi guru SD) hobi saya adalah membaca. </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
