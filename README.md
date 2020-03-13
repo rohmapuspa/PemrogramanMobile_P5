@@ -1,6 +1,6 @@
 # Praktikum_PemrogramanMobile
 Kumpulan Praktikum Pemrograman Mobile
-Tugas Pemrograman Mobile Teori : 
+Tugas Pemrograman Mobile Teori : https://github.com/rohmapuspa/Pemrograman_Mobile_Teori.git
 # Rohmawati PuspaNingrum (175610054)
  
 - pertemuan ke - 1 Mencari Referensi untuk dipelajari
