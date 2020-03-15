@@ -39,6 +39,9 @@ class InputFragment : Fragment() {
                 nav.navigate(R.id.action_inputFragment_to_hasilFragment, bundle)
             }
         }
+        buttonCancle.setOnClickListener {
+            nav.navigate(R.id.action_inputFragment_to_utamaFragment)
+        }
     }
 }
 

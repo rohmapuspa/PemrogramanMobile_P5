@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_inputFragment_to_hasilFragment"
             app:destination="@id/hasilFragment" />
+        <action
+            android:id="@+id/action_inputFragment_to_utamaFragment"
+            app:destination="@id/utamaFragment" />
     </fragment>
     <fragment
         android:id="@+id/hasilFragment"
