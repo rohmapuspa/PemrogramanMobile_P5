@@ -10,5 +10,5 @@ Tugas Pemrograman Mobile Teori : https://github.com/rohmapuspa/Pemrograman_Mobil
 - Pertemuan ke - 4 https://github.com/rohmapuspa/Pemrograman_Mobile.git
 - Pertemuan ke - 5 Tentang Saya (https://github.com/rohmapuspa/Praktikum_PemrogramanMobile.git)
 - Pertemuan ke - 6 Jetpack Navigation + ProjectPortofolioku (https://github.com/rohmapuspa/Praktikum_PemrogramanMobile.git)
-- Pertemuan ke - 7 Melanjutkan ProjectPortofolioku untuk UTS Pemrograman Mobile 
+- Pertemuan ke - 7 Melanjutkan ProjectPortofolioku utk UTS Pemrograman Mobile (https://github.com/rohmapuspa/Pemrograman_Mobile_Teori.git)
 - Pertemuan ke - 8 Recycle View
