@@ -6,30 +6,19 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import kotlinx.android.synthetic.main.list.*
 import kotlinx.android.synthetic.main.list.view.*
 
-class Adapter (private val exampleList: List<Users>) :
-    RecyclerView.Adapter<Adapter.ExampleViewHolder>() {
+class Adapter (private val list: ArrayList<Users>) :  RecyclerView.Adapter<Adapter.Holder>(){
 
-        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ExampleViewHolder {
-            val itemView = LayoutInflater.from(parent.context).inflate(
-                R.layout.list,
-                parent, false
-            )
-            return ExampleViewHolder(itemView)
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): Holder {
+            return Holder(LayoutInflater.from(parent.context).inflate(R.layout.list, parent,false))
         }
 
-        override fun onBindViewHolder(holder: ExampleViewHolder, position: Int) {
-            val currentItem = exampleList[position]
+    override fun getItemCount() = list.size
 
-            holder.imageView.setImageResource(currentItem.imageResource)
-            holder.textView1.text = currentItem.text1
+    override fun onBindViewHolder(holder: Holder, position: Int) {
+        holder.view.lbList.text= list.get(position).name
         }
-
-        override fun getItemCount() = exampleList.size
-
-        class ExampleViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-            val imageView: ImageView = itemView.image_view
-            val textView1: TextView = itemView.text_view_1
-              }
+    class Holder(val view: View) : RecyclerView.ViewHolder(view)
     }
