@@ -1,5 +1,15 @@
 package ningrum.rohma.internet.view
 
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.Toast
+import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+import kotlinx.android.synthetic.main.item_list.view.*
+import ningrum.rohma.internet.R
+import ningrum.rohma.internet.model.Photo
+
 class PhotoListAdapter (var photos: ArrayList<Photo>) : RecyclerView.Adapter<PhotoListAdapter.ViewHolder>() {
 
     fun updatePhotos(newPhotos: List<Photo>) {

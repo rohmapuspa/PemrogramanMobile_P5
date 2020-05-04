@@ -1,6 +1,16 @@
 package ningrum.rohma.internet.viewmodel
 
-class ListViewMode : ViewModel() {
+import android.util.Log
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.observers.DisposableSingleObserver
+import io.reactivex.schedulers.Schedulers
+import ningrum.rohma.internet.api.PhotosService
+import ningrum.rohma.internet.model.Photo
+
+class ListViewModel : ViewModel() {
     private val photosService = PhotosService()
     private val disposable = CompositeDisposable()
     val photos = MutableLiveData<List<Photo>>()
